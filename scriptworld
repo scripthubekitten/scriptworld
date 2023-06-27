@@ -1,0 +1,135 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/vKhonshu/intro2/main/ui2"))()
+local NotifyLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vKhonshu/intro/main/ui"))()
+NotifyLib.prompt('Scriptworld', 'Welcome to our scripthub script', 5)    
+NotifyLib.prompt('ScriptWorld is gone ', 5)  
+NotifyLib.prompt('Scriptworld', 'made by dogmilitary armor at discord.gg/productions', 5)
+
+local DiscordLib =
+    loadstring(game:HttpGet "https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord")()
+
+local win = DiscordLib:Window("ScriptWorld X ScriptHub ??/")
+
+local serv = win:Server("Scriptworld", "")
+
+local btns = serv:Channel("💬 • Chathax")
+
+btns:Button(
+    "Enable Chathax",
+    function()
+loadstring(game:HttpGet("https://pastebin.com/raw/s47Czfmp"))()
+        DiscordLib:Notification("Notification", "Chathax Activated!", "Okay!")
+    end
+)
+
+local btns = serv:Channel("🦸 • Superhuman")
+
+btns:Button(
+    "Enable Superhuman",
+    function()
+loadstring(game:HttpGet("https://pastebin.com/raw/JB70cYie"))()
+        DiscordLib:Notification("Notification", "Superhuman Activated!", "Okay!")
+    end
+)
+
+local btns = serv:Channel("🦸‍♂️ • WS&JP")
+
+btns:Button(
+    "Enable GUI (This doesn’t work on some games)",
+    function()
+loadstring(game:HttpGet("https://pastebin.com/raw/X93gQrxS"))()
+        DiscordLib:Notification("Notification", "GUI Activated!", "Okay!")
+    end
+)
+
+local btns = serv:Channel("🏑 • Fling GUI")
+
+btns:Button(
+    "Enable Fling GUI",
+    function()
+loadstring(game:HttpGet("https://pastebin.com/raw/ZDvnbANH"))()
+        DiscordLib:Notification("Notification", "Fling GUI Activated!", "Okay!")
+    end
+)
+
+local btns = serv:Channel(" 💎 • BEST AIMLOCKS!!")
+
+btns:Button(
+    "SW Aimlock Tool (DH Recommended)",
+    function()
+loadstring(game:HttpGet("https://pastebin.com/raw/Mr4AJ65e"))()
+        DiscordLib:Notification("Notification", "Scriptworld Aimlock Activated!", "Okay!")
+    end
+)
+
+btns:Button(
+    "SW Camlock tool",
+    function()
+loadstring(game:HttpGet("https://pastebin.com/raw/Bp6w8wPg"))()
+        DiscordLib:Notification("Notification", "Scriptworld Aimlock Activated!", "Okay!")
+    end
+)
+
+local btns = serv:Channel("🔭 • Click TP Tool")
+
+btns:Button(
+    "Click TP tool",
+    function()
+loadstring(game:HttpGet("https://pastebin.com/raw/9XYK1mwr"))()
+        DiscordLib:Notification("Notification", "Scriptworld Click TP Tool Activated!", "Okay!")
+    end
+)
+
+local btns = serv:Channel("🔎 • Aimviewer")
+
+btns:Button(
+    "Activate Aimviewer",
+    function()
+loadstring(game:HttpGet("https://pastebin.com/raw/iNzV96r9"))()
+        DiscordLib:Notification("Notification", "Scriptworld Aimviewer Activated!", "Okay!")
+    end
+)
+
+local btns = serv:Channel("💻 • Noclip")
+
+btns:Button(
+    "Noclip (Kinda glitched)",
+    function()
+loadstring(game:HttpGet("https://pastebin.com/raw/H139vxUv"))()
+        DiscordLib:Notification("Notification", "Scriptworld Noclip Activated!", "Okay!")
+    end
+)
+
+local btns = serv:Channel("🟦 • ESP")
+
+btns:Button(
+    "ESP (Permanent)",
+    function()
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/vKhonshu/intro2/main/ui2"))()
+local NotifyLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vKhonshu/intro/main/ui"))()
+NotifyLib.prompt('Scriptworld', 'Welcome to our ESP script', 2)    
+
+loadstring(game:HttpGet("https://pastebin.com/raw/3RyH0jr1"))()
+        DiscordLib:Notification("Notification", "Scriptworld ESP Activated!", "Okay!")
+    end
+)
+
+local btns = serv:Channel("💨 • Fake Macro")
+
+btns:Button(
+    "Fake macro tool",
+    function()
+loadstring(game:HttpGet("https://pastebin.com/raw/TfTiXRwR"))()
+        DiscordLib:Notification("Notification", "Scriptworld Fake Macro tool loaded", "Okay!")
+    end
+)
+
+local btns = serv:Channel("💯 • Tryhard anims")
+
+btns:Button(
+    "Enable tryhard anims",
+    function()
+loadstring(game:HttpGet("https://pastebin.com/raw/BF2mcLPA"))()
+        DiscordLib:Notification("Notification", "Scriptworld tryhard anims loaded", "Okay!")
+    end
+)
